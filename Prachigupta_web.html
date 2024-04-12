@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPortFolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+
+    body {
+      background-color: rgb(74, 13, 57);
+      color: white;
+      font-family: 'Poopins', sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(89, 16, 82);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: centre;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      text-decoration: none;
+      color: lavender;
+      font-size: 1.04rem;
+    }
+
+    .left {
+      font-size: 1.5rem;
+
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 27px 0;
+
+    }
+
+    .firstSection >div {
+      width: 32%;
+    }
+
+    .leftSection {
+      font-size: 2rem;
+      
+    }
+    .leftsection.button{
+      padding:30px;
+    }
+
+    .leftSection .btn {
+      padding:12px;
+      background-color: rgb(205, 83, 83);
+      color: rgb(77, 165, 187);
+      border: 2px solid white;
+      border-radius: 15px;
+      font-size: 15px;
+      cursor: pointer;
+      
+      
+    }
+    .rightSection img {
+      width: 70%;
+      
+      height: 307px;
+
+    }
+
+    .purple {
+      color: rgb(90, 195, 214);
+    }
+
+    #element {
+      color: rgb(191, 90, 214);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    main hr {
+      border: 0;
+      background: rgb(71, 123, 165);
+      height: 0.2px;
+      margin: 21px -7px;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .rightSection {
+      position: relative;
+    }
+
+    .rightSection:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: -14%;
+      background: rgb(46, 1, 42);
+      border-bottom: 50%;
+      z-index: -1;
+    }
+
+    .textGray {
+      color: rgb(128, 128, 128);
+    }
+
+    .secondSection .box {
+      background: white;
+      width: 80vw;
+      height: 2px;
+      margin: 52px 0;
+      display: flex
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background-color: white;
+      margin: 0 100px;
+    }
+
+    .imageTop {
+      width: 23px;
+      position: relative;
+      top: -33px;
+      left: -9px;
+    }
+    
+
+    .verticalText {
+      position: relative;
+    top: 70px;
+    left:0px;
+    width: 150px;
+    }
+
+    .verticalDESC {
+      position: relative;
+    top: 84px;
+    width: 150px;
+    color: gray;
+    font-size: 7px;
+    }
+    footer{
+      background-color: rgb(143, 53, 100);
+    }
+    .footer{
+      display:flex;
+      padding:23px 122px;
+      justify-content: space-evenly;
+    }
+    .footer ul{
+      list-style:none;
+    }
+    .footer > div{
+      width:223px;
+    }
+    footer .footer-rights{
+      text-align: center;
+      color: gray;
+      padding :12px ;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Welcome</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">
+              Home
+            </a>
+          </li>
+          <li><a href="/">
+              About
+            </a>
+          </li>
+          <li><a href="/">
+              Services
+            </a>
+          </li>
+          <li><a href="/">
+              Projects
+            </a>
+          </li>
+          <li><a href="/">
+              Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi , My name is <span class="purple">
+          Prachi Gupta
+        </span>
+        <div>and I am passionate</div>
+
+        <span id="element"></span>
+        <div class="button">
+        <button class="btn"> 
+          <a href="https://drive.google.com/file/d/1wO0siJa0XqZCH-Oek4PqtaVPzq96p36K/view?usp=drive_link" target="blank" >Download Resume</a>
+        </button>
+        <button class="btn"> 
+          <a href="https://github.com/prachigupta171020" target="blank" >  Visit GitHub</a>  </button>
+
+      </div>
+      <button class="btn">
+        <a href="https://www.linkedin.com/in/prachi-gupta-b76b2523b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="blank"> Visit LinkedIn </a> </button>
+      </div>
+      <div class="rightSection">
+        <img src="https://t4.ftcdn.net/jpg/04/90/33/39/360_F_490333979_EQdf0tNa0W7MdstKjrGwnjQjoxfYP2zO.jpg" alt="notebook" height="150"/>
+      </div>
+    </section>
+    <section class="secondSection">
+      <hr>
+      <span class="textGray">What I have Done so far</span>
+      <h1>
+        Work Experience
+      </h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">
+            HTML DEVELOPER (2019-21)
+          </div>
+          <div class="verticalDESC">
+            In this period of time I learned all the basic tools of HTML, CSS, JS
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">
+            Advance (2021-22)
+          </div>
+          <div class="verticalDESC">
+            In this period of time I make my hand strong on the <b>BACKEND</b>{C, C++}
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">
+            Full Stack  (2022-23)
+          </div>
+          <div class="verticalDESC">
+           practicing React, MongoDB
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="imageTop" src="zubidu.png" alt="">
+          <div class="verticalText">
+            HTML DEVELOPER (2023-24)
+          </div>
+          <div class="verticalDESC">
+            Still practicing on both FRONTEND and BACKEND
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h2>Prachi's Developer PortFolio</h2>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      copyright &#169; prachiportfolio.com | All right reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Data Analyst', 'Data Cleaner', 'Data Visualizer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
